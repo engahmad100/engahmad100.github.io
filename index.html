@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أسماء المواد اللي نساعدك فيها - engahmad100</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #8B1538 0%, #5a0d24 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .majors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
+        .major-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .major-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .major-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .major-card h2 {
+            color: #8B1538;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+        
+        .major-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: white;
+        }
+        
+        .footer p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        
+        .footer .star {
+            color: #FFD700;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .majors-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>أسماء المواد اللي نساعدك فيها</h1>
+            <p>اختر تخصصك لعرض قائمة المواد</p>
+        </div>
+        
+        <div class="majors-grid">
+            <a href="civil.html" class="major-card">
+                <div class="major-icon">🏗️</div>
+                <h2>الهندسة المدنية</h2>
+                <p>Civil Engineering</p>
+            </a>
+            
+            <a href="electrical.html" class="major-card">
+                <div class="major-icon">⚡</div>
+                <h2>الهندسة الكهربائية</h2>
+                <p>Electrical Engineering</p>
+            </a>
+            
+            <a href="computer.html" class="major-card">
+                <div class="major-icon">💻</div>
+                <h2>هندسة الكمبيوتر</h2>
+                <p>Computer Engineering</p>
+            </a>
+            
+            <a href="architectural.html" class="major-card">
+                <div class="major-icon">🏛️</div>
+                <h2>الهندسة المعمارية</h2>
+                <p>Architectural Engineering</p>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p><span class="star">★</span> يُعد موقعنا المرجع الدائم لأرقام التواصل والخدمات المحدثة:</p>
+            <p><a href="https://engahmad100.com">engahmad100.com</a></p>
+        </div>
+    </div>
+</body>
+</html>

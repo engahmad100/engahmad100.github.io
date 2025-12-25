@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هندسة الكمبيوتر - Computer Engineering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #8B1538 0%, #5a0d24 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        .courses-table {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: #8B1538;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+        }
+        
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        tr:hover {
+            background: #fff3f5;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        .footer p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        
+        .star {
+            color: #FFD700;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.4rem;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">← العودة للتخصصات</a>
+        
+        <div class="header">
+            <h1>💻 هندسة الكمبيوتر</h1>
+            <p>Computer Engineering</p>
+        </div>
+        
+        <div class="courses-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>CPEN 210</td><td>Introduction to Programming</td></tr>
+                    <tr><td>CPEN 215</td><td>Object-Oriented Programming</td></tr>
+                    <tr><td>CPEN 220</td><td>Data Structures</td></tr>
+                    <tr><td>CPEN 225</td><td>Algorithms</td></tr>
+                    <tr><td>CPEN 230</td><td>Digital Logic Design</td></tr>
+                    <tr><td>CPEN 235</td><td>Computer Architecture</td></tr>
+                    <tr><td>CPEN 240</td><td>Microprocessors</td></tr>
+                    <tr><td>CPEN 250</td><td>Operating Systems</td></tr>
+                    <tr><td>CPEN 310</td><td>Database Systems</td></tr>
+                    <tr><td>CPEN 315</td><td>Computer Networks</td></tr>
+                    <tr><td>CPEN 320</td><td>Software Engineering</td></tr>
+                    <tr><td>CPEN 325</td><td>Web Development</td></tr>
+                    <tr><td>CPEN 330</td><td>Embedded Systems</td></tr>
+                    <tr><td>CPEN 340</td><td>Computer Graphics</td></tr>
+                    <tr><td>CPEN 350</td><td>Artificial Intelligence</td></tr>
+                    <tr><td>CPEN 360</td><td>Machine Learning</td></tr>
+                    <tr><td>CPEN 410</td><td>Computer Security</td></tr>
+                    <tr><td>CPEN 420</td><td>Cloud Computing</td></tr>
+                    <tr><td>CPEN 430</td><td>Mobile Application Development</td></tr>
+                    <tr><td>CPEN 490</td><td>Senior Design Project</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p><span class="star">★</span> يُعد موقعنا المرجع الدائم لأرقام التواصل والخدمات المحدثة:</p>
+            <p><a href="https://engahmad100.com">engahmad100.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
